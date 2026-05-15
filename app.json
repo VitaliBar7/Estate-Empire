@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Estate-Empire",
+    "slug": "Estate-Empire",
+    "scheme": "estate-empire",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vitaly.estateempire"
+    },
+    "android": {
+      "package": "com.vitaly.estateempire",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea7a4d6a-0c4c-4e2c-a164-ee4f76f1fd74"
+      }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
+  }
+}
